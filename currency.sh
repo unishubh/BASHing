@@ -111,12 +111,12 @@ convertCurrency()
   fi
 
   cat <<EOF
-=========================
-| $base to $exchangeTo
-| Rate: $exchangeRate
-| $base: $amount
-| $exchangeTo: $exchangeAmount
-=========================
+=================================
+| $base to $exchangeTo          
+| Rate: $exchangeRate           
+| $base: $amount                
+| $exchangeTo: $exchangeAmount  
+================================
 EOF
 }
 getConfiguredClient || exit 1
